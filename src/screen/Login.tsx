@@ -1,14 +1,16 @@
 import React, { useState } from 'react';
 import Snowfall from 'react-snowfall';
 import './Login.css';
+import { useHistory } from 'react-router';
 
 const Login: React.FC = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const history = useHistory();
 
   const handleLogin = () => {
     if (email === 'isma' && password === '1007') {
-      window.location.href = '/calendar-web/home';
+      history.push('/home');
     }
   };
 
@@ -16,10 +18,10 @@ const Login: React.FC = () => {
     <div className="login-page">
       {/* Efecto de nieve */}
       <Snowfall />
-      
+
       <div className="login-container">
         <h1>Calendario de Adviento</h1>
-        
+
         <div className="input-wrapper">
           <label htmlFor="email">Email</label>
           <input
