@@ -76,9 +76,12 @@
 }
 
 .custom-button {
-  --background: #ff6b6b !important; /* Fondo rojo */
-  --color: #fff !important; /* Texto blanco */
-  --border-radius: 5px; /* Bordes redondeados */
+  --background: #ff6b6b !important;
+  /* Fondo rojo */
+  --color: #fff !important;
+  /* Texto blanco */
+  --border-radius: 5px;
+  /* Bordes redondeados */
   padding: 10px 20px;
 }
 
@@ -86,6 +89,7 @@
   0% {
     top: -10%;
   }
+
   100% {
     top: 100%;
   }
@@ -125,9 +129,12 @@
 }
 
 .custom-button {
-  --background: #ff6b6b !important; /* Fondo rojo */
-  --color: #fff !important; /* Texto blanco */
-  --border-radius: 5px; /* Bordes redondeados */
+  --background: #ff6b6b !important;
+  /* Fondo rojo */
+  --color: #fff !important;
+  /* Texto blanco */
+  --border-radius: 5px;
+  /* Bordes redondeados */
   padding: 10px 20px;
 }
 
@@ -135,4 +142,3 @@
   font-size: 100px;
   margin: 20px 0;
 }
-
