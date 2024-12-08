@@ -9,8 +9,10 @@ const Login: React.FC = () => {
   const history = useHistory();
 
   const handleLogin = () => {
-    if (email === 'isma' && password === '1007') {
+    if (email === process.env.REACT_APP_EMAIL && password === process.env.REACT_APP_PASSWORD) {
       history.push('/home');
+    } else {
+      alert('Credenciales incorrectas');
     }
   };
 
