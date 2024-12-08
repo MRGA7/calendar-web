@@ -8,7 +8,7 @@ const Login: React.FC = () => {
 
   const handleLogin = () => {
     if (email === 'isma' && password === '1007') {
-      window.location.href = '/home';
+      window.location.href = '/calendar-web/home';
     }
   };
 
