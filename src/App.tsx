@@ -29,7 +29,7 @@ setupIonicReact();
 
 const App: React.FC = () => (
   <IonApp>
-    <IonReactRouter>
+    <IonReactRouter basename="/calendar-web">
       <IonRouterOutlet>
         <Route exact path="/login">
           <Login />
