@@ -41,7 +41,7 @@ const Home: React.FC = () => {
         <IonGrid>
           <IonRow>
             {days.map((day, index) => (
-              <IonCol size="4" key={day} className="day-card-container">
+              <IonCol size="3" key={day} className="day-card-container">
                 <div 
                   className={`day-card ${revealedDays[index] ? 'flipped' : ''}`}
                   onClick={() => handleCardClick(index)}
